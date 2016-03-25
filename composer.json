@@ -10,7 +10,7 @@
         "laravelcollective/html": "^5.2",
         "guzzlehttp/guzzle": "^6.1",
         "pusher/pusher-php-server": "^2.3",
-        "thunder_nick/media-apis": "dev-master"
+        "nickfairchild/media-apis": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -53,11 +53,5 @@
     },
     "config": {
         "preferred-install": "dist"
-    },
-    "repositories":[
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:thunder_nick/media-apis.git"
-        }
-    ]
+    }
 }
