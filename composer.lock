@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f014b36baa9741a5a84e675e56e77806",
-    "content-hash": "8e8bf9f5a37b541952b721932b63fd9b",
+    "hash": "b3a9603ec536704572a4f35f2d9466e4",
+    "content-hash": "f32f993667bbb8b6727de74dbc7530a6",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -163,16 +163,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.1.1",
+            "version": "6.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "c6851d6e48f63b69357cbfa55bca116448140e0c"
+                "reference": "d094e337976dff9d8e2424e8485872194e768662"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/c6851d6e48f63b69357cbfa55bca116448140e0c",
-                "reference": "c6851d6e48f63b69357cbfa55bca116448140e0c",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d094e337976dff9d8e2424e8485872194e768662",
+                "reference": "d094e337976dff9d8e2424e8485872194e768662",
                 "shasum": ""
             },
             "require": {
@@ -188,7 +188,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.1-dev"
+                    "dev-master": "6.2-dev"
                 }
             },
             "autoload": {
@@ -221,7 +221,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2015-11-23 00:47:50"
+            "time": "2016-03-21 20:02:09"
         },
         {
             "name": "guzzlehttp/promises",
@@ -479,16 +479,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.2.23",
+            "version": "v5.2.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "87c090845f135ca94eba903f1c8462e60e3a6e36"
+                "reference": "d2817d2773dc3f405b561762489a76bbe66bd673"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/87c090845f135ca94eba903f1c8462e60e3a6e36",
-                "reference": "87c090845f135ca94eba903f1c8462e60e3a6e36",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/d2817d2773dc3f405b561762489a76bbe66bd673",
+                "reference": "d2817d2773dc3f405b561762489a76bbe66bd673",
                 "shasum": ""
             },
             "require": {
@@ -501,7 +501,7 @@
                 "monolog/monolog": "~1.11",
                 "mtdowling/cron-expression": "~1.0",
                 "nesbot/carbon": "~1.20",
-                "paragonie/random_compat": "~1.1",
+                "paragonie/random_compat": "~1.4",
                 "php": ">=5.5.9",
                 "psy/psysh": "0.7.*",
                 "swiftmailer/swiftmailer": "~5.1",
@@ -603,7 +603,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-03-14 14:22:33"
+            "time": "2016-03-24 15:06:38"
         },
         {
             "name": "laravelcollective/html",
@@ -910,6 +910,46 @@
                 "time"
             ],
             "time": "2015-11-04 20:07:17"
+        },
+        {
+            "name": "nickfairchild/media-apis",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nickfairchild/media-apis.git",
+                "reference": "277446283e689a77f49a4713cae6e04d08eeaf7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nickfairchild/media-apis/zipball/277446283e689a77f49a4713cae6e04d08eeaf7e",
+                "reference": "277446283e689a77f49a4713cae6e04d08eeaf7e",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.1"
+            },
+            "require-dev": {
+                "illuminate/support": "^5.2",
+                "nesbot/carbon": "^1.21"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Media\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Fairchild",
+                    "email": "nick.fairchild@gmail.com"
+                }
+            ],
+            "description": "Laravel Media apis wrapper eg: TVDB, IMDB",
+            "time": "2016-03-25 15:56:15"
         },
         {
             "name": "nikic/php-parser",
@@ -2043,39 +2083,6 @@
                 "dump"
             ],
             "time": "2016-02-13 09:23:44"
-        },
-        {
-            "name": "thunder_nick/media-apis",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:thunder_nick/media-apis.git",
-                "reference": "9fdaf7e9c54d2fb136348b5ae3a7f34289f77315"
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^6.1"
-            },
-            "require-dev": {
-                "illuminate/support": "^5.2",
-                "nesbot/carbon": "^1.21"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Media\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nick Fairchild",
-                    "email": "nick@wearethunderbolt.com"
-                }
-            ],
-            "description": "Laravel Media apis wrapper eg: TVDB, IMDB",
-            "time": "2016-03-20 14:12:53"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -3402,7 +3409,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "thunder_nick/media-apis": 20
+        "nickfairchild/media-apis": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
