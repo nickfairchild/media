@@ -1,7 +1,48 @@
-/vendor
-/node_modules
+# Laravel #
+###########
+.env
 /public/storage
+
+# Composer #
+############
+/vendor
+composer.phar
+
+# Node JS #
+###########
+/node_modules
+/bower_components
+
+# OS Generated Files #
+######################
+*~
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+.svn
+.directory
+
+# IDE Generated Files #
+#######################
+.project
+.settings
+*.bbprojectd
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.swp
+*~.nib
+nbproject
+.komodotools
+.idea
+
+# Homestead #
+#############
 Homestead.yaml
 Homestead.json
-.env
-.idea
