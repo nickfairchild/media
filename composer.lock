@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b3a9603ec536704572a4f35f2d9466e4",
-    "content-hash": "f32f993667bbb8b6727de74dbc7530a6",
+    "hash": "8842d439b1e62e7b8adf8ce5b6c23dbd",
+    "content-hash": "cd7b84ff404cd79ce1270df7cf6c2d08",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -479,16 +479,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.2.25",
+            "version": "v5.2.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d2817d2773dc3f405b561762489a76bbe66bd673"
+                "reference": "b73ac62506c5c2bd49d87fcb1089f7759431e173"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d2817d2773dc3f405b561762489a76bbe66bd673",
-                "reference": "d2817d2773dc3f405b561762489a76bbe66bd673",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b73ac62506c5c2bd49d87fcb1089f7759431e173",
+                "reference": "b73ac62506c5c2bd49d87fcb1089f7759431e173",
                 "shasum": ""
             },
             "require": {
@@ -603,7 +603,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-03-24 15:06:38"
+            "time": "2016-03-25 17:12:52"
         },
         {
             "name": "laravelcollective/html",
@@ -912,30 +912,65 @@
             "time": "2015-11-04 20:07:17"
         },
         {
+            "name": "nickfairchild/flash-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nickfairchild/flash-message.git",
+                "reference": "6f196346e29ead8af29c55f31200e79cce432013"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nickfairchild/flash-message/zipball/6f196346e29ead8af29c55f31200e79cce432013",
+                "reference": "6f196346e29ead8af29c55f31200e79cce432013",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nick\\Flash\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nick Fairchild",
+                    "email": "nick.fairchild@gmail.com"
+                }
+            ],
+            "description": "Laravel Flash Messaging",
+            "time": "2016-03-26 11:08:43"
+        },
+        {
             "name": "nickfairchild/media-apis",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nickfairchild/media-apis.git",
-                "reference": "277446283e689a77f49a4713cae6e04d08eeaf7e"
+                "reference": "19b94d89810db422d356ecc6bb166033a5bf2986"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nickfairchild/media-apis/zipball/277446283e689a77f49a4713cae6e04d08eeaf7e",
-                "reference": "277446283e689a77f49a4713cae6e04d08eeaf7e",
+                "url": "https://api.github.com/repos/nickfairchild/media-apis/zipball/19b94d89810db422d356ecc6bb166033a5bf2986",
+                "reference": "19b94d89810db422d356ecc6bb166033a5bf2986",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": "^6.1"
-            },
-            "require-dev": {
+                "guzzlehttp/guzzle": "^6.1",
                 "illuminate/support": "^5.2",
                 "nesbot/carbon": "^1.21"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Media\\": "src/"
+                    "Nick\\Media\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -949,7 +984,7 @@
                 }
             ],
             "description": "Laravel Media apis wrapper eg: TVDB, IMDB",
-            "time": "2016-03-25 15:56:15"
+            "time": "2016-03-26 11:08:24"
         },
         {
             "name": "nikic/php-parser",
@@ -3409,7 +3444,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "nickfairchild/media-apis": 20
+        "nickfairchild/media-apis": 20,
+        "nickfairchild/flash-message": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

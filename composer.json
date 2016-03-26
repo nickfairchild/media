@@ -10,7 +10,8 @@
         "laravelcollective/html": "^5.2",
         "guzzlehttp/guzzle": "^6.1",
         "pusher/pusher-php-server": "^2.3",
-        "nickfairchild/media-apis": "dev-master"
+        "nickfairchild/media-apis": "dev-master",
+        "nickfairchild/flash-message": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
