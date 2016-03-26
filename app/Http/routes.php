@@ -37,7 +37,7 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/tv/store', ['uses' => 'TVController@store', 'as' => 'tv.store']);
     Route::get('/tv/{tv}', 'TVController@show');
 //    Route::resource('tv', 'TVController');
-    Route::get('/api/shows', function() {
+    Route::get('/api/shows', function () {
         return TvShow::all();
     });
 });

@@ -10,6 +10,6 @@ return [
     | TVDB API settings.
     |
     */
-    'tvdb' => ['key' => env('TVDB_API'), 'host' => 'http://thetvdb.com']
+    'tvdb' => ['key' => env('TVDB_API'), 'host' => 'http://thetvdb.com'],
 
 ];
