@@ -4,6 +4,11 @@ risky: false
 
 linting: true
 
+disabled:
+  - phpdoc_no_package
+  - phpdoc_summary
+  - no_unused_imports
+
 finder:
   exclude:
     - "tests"
