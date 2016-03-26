@@ -156,7 +156,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
-        Media\MediaServiceProvider::class,
+        Nick\Media\MediaServiceProvider::class,
+        Nick\Flash\FlashServiceProvider::class,
 
     ],
 
@@ -205,7 +206,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-        'Tvdb' => Media\Facades\TVDBFacade::class,
+        'Tvdb' => Nick\Media\Facades\TVDBFacade::class,
+        'Flash' => Nick\Flash\Facades\Flash::class,
 
     ],
 
