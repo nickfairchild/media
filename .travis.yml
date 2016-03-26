@@ -9,4 +9,4 @@ env:
 
 install:
   - if [[ $setup = 'basic' ]]; then travis_retry composer install --no-interaction --prefer-dist; fi
-  - if [[ $setup = 'stable ]]; then travis_retry composer update --no-interaction --prefer-dist --prefer-stable; fi
+  - if [[ $setup = 'stable' ]]; then travis_retry composer update --no-interaction --prefer-dist --prefer-stable; fi
